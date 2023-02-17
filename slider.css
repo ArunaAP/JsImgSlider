@@ -3,9 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-.body {
+body {
   height: 1080px;
-  background-color: #927df1;
+  background-color: #1e1e1e;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,6 +16,12 @@
   align-items: center;
   gap: 50px;
 }
+
+.container .title{
+  color: #fff;
+  font-family: "poppins";
+  font-size: 35px;
+}
 .top {
   display: flex;
   align-items: center;
@@ -23,7 +29,7 @@
 }
 
 .arrow {
-  height: 150px;
+  height: 100px;
   cursor: pointer;
 }
 .left {
@@ -57,4 +63,5 @@
   border-radius: 50px;
   border: 1px solid white;
   cursor: pointer;
+  transition: all 1s ease;
 }
